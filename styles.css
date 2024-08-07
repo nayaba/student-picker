@@ -39,6 +39,12 @@ h1 {
     cursor: pointer;
 }
 
+.seat.current {
+    background-color: aqua;
+    color: black;
+    font-weight: bold;
+}
+
 .spacer {
     width: 40px;
 }
