@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+#app {
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.seating-chart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.seat {
+    width: 10vw;
+    height: 10vh;
+    margin: 5px;
+    background-color: white;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.spacer {
+    width: 40px;
+}
+
+.seat.strike {
+    text-decoration: line-through;
+    color: #888;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
