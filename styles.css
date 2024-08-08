@@ -27,8 +27,14 @@ h1 {
     margin-bottom: 10px;
 }
 
+.no-desk {
+    width: 9vw;
+    height: 10vh;
+    margin: 5px;
+}
+
 .seat {
-    width: 10vw;
+    width: 9vw;
     height: 10vh;
     margin: 5px;
     background-color: white;
@@ -39,14 +45,27 @@ h1 {
     cursor: pointer;
 }
 
+
 .seat.current {
     background-color: aqua;
     color: black;
     font-weight: bold;
 }
 
+.empty {
+    background-color: #f0f0f0;
+    border: 1px solid #e0e0e0;
+    width: 9vw;
+    height: 10vh;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
 .spacer {
-    width: 40px;
+    width: 6vw;
 }
 
 .seat.strike {
@@ -59,3 +78,4 @@ button {
     font-size: 16px;
     cursor: pointer;
 }
+

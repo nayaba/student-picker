@@ -1,4 +1,11 @@
 let prevStudent
+ 
+document.querySelectorAll('.seat').forEach(seat => {
+    if (!seat.innerText) {
+        seat.classList.add('empty')
+        seat.classList.remove('seat')
+    }
+});
 
 document.getElementById('select-student').addEventListener('click', () => {
   const seats = document.querySelectorAll('.seat:not(.strike)')
